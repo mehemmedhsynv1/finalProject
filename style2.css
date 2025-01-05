@@ -1,0 +1,1642 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    /*background-image: url(./Sky-Room_white-linens.webp);
+    filter: brightness(95%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 0;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+}
+.scroll-header {
+    background-color: rgba(114, 39, 39, 0.7);
+    color: black !important;
+    transition: 0.5s;
+}
+.black {
+    color: #222222;
+}
+.scroll {
+    color: black;
+    font-family: "Great Vibes";
+    font-size: 18px;
+}
+.headers-texts {
+    position: relative;
+    z-index: 1;
+}
+.first-sec-g {
+    position: relative;
+    padding-top: 100px;
+    height: 70vh;
+    background-image: url(./black-marble-4k-7dw4ifkh90klrak4.jpg);
+    filter: brightness(80%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+.res-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 60px;
+    border-radius: 15px;
+    border: 2px solid white;
+    position: absolute;
+    left: 70px;
+    cursor: pointer;
+}
+.rest-name {
+    font-family: "Great Vibes";
+    font-size: 18px;
+    color: white;
+}
+.rest {
+    font-family: "Poppins";
+    font-size: 12.5px;
+    color: white;
+}
+#n-bars {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 24px;
+    transition: 0.2s;
+}
+#n-bars:hover {
+    color: orangered;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-bar-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    transition: 0.5s;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px 10px black;
+}
+#home-first {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+#home-first:hover {
+    color: orangered;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.header-icon-social {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 100px;
+}
+.two-stick {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    right: 100px;
+}
+.two-stick-new {
+    width: 0px;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 3;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#home {
+    text-decoration: none;
+    color: #222222;
+    transition: 0.3s;
+}
+#home:hover {
+    color: #d80b0b;
+}
+#menu-first {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    color: #d80b0b;
+}
+#menu-first:hover {
+    color: #d80b0b;
+}
+#gallery {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+#gallery:hover {
+    color: #d80b0b;
+}
+#rezervation {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+#rezervation:hover {
+    color: #d80b0b;
+}
+#about-us {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+#about-us:hover {
+    color: #d80b0b;
+}
+#contact {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+#contact:hover {
+    color: #d80b0b;
+}
+.fa-xmark {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 30px;
+}
+.fa-xmark:hover {
+    color: #d80b0b;
+}
+.slide-bar-texts {
+    font-family: "Montserrat", sans-serif;
+    color: #222222;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 24px;
+    transition: 0.2s;
+    text-align: center;
+    
+}
+.slide-bar-texts > li {
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.slide-bar-texts > li:hover {
+    color: #d80b0b;
+}
+.slide-bar-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.delete {
+    visibility: hidden;
+}
+#t-stick {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    transition: 0.2s;
+}
+.two-stick:hover #t-stick {
+    background-color: orangered;
+    transition: 0.2s;
+}
+.two-stick:hover #b-stick {
+    background-color: orangered;
+    transition: 0.2s;
+}
+#b-stick {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    transition: 0.2s;
+}
+.header-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+#g-text-p {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 200px;
+    font-family: "Poppins";
+    z-index: 3;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+
+#menu-big-text {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 200px;
+    font-family: "Poppins";
+    z-index: 2;
+}
+.menu-text-div {
+    display: flex;
+    justify-content: center;
+}
+#big-menu-first {
+    font-size: 45px;
+    color: #222222;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#menu-sec-part {
+    font-size: 32px;
+    color: #222222;
+}
+.fa-play {
+    font-size: 12px;
+    display: inline-block;
+    transition: 0.5s;
+    padding: 15px;
+}
+.menu-sec-div {
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+.lunch-div {
+    visibility: hidden;
+    height: 0px;
+}
+.add-div {
+    visibility: visible;
+    height: auto;
+    transition: 0.5s;
+}
+.search-bar-btn {
+    /* border-radius: 10px; */
+    padding: 2px 11px;
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    background-color: white;
+    transition: 0.4s;
+    width: 200px;
+    height: 60px;
+    position: relative;
+}
+.search-bar-btn:hover {
+    background-color: #691010;
+    color: white;
+    transition: 0.5s;
+}
+.active-btn {
+    /* border-radius: 10px; */
+    padding: 2px 11px;
+    margin: 0px 0px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #691010;
+    border: none;
+    position: relative;
+}
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 0px;
+}
+.menu-sec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.menu-sec-arrow {
+    width: 20px;
+    height: 17px;
+    background-color: #691010;
+    position: absolute;
+    left: 198px;
+    bottom: 21px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(90deg);
+}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+.circle-img {
+    position: absolute;
+    -webkit-animation: rotating 40s linear infinite;
+}
+
+.search-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+#search {
+    font-family: "Poppins";
+    font-size: 17px;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-right: 7px;
+    margin-top: 2px;
+    transition: 0.5s;
+}
+#search:hover {
+    background-color: #d80b0b;
+}
+#search-i {
+    width: 190px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 0px;
+    margin-bottom: 30px;
+    border:2px solid rgb(172, 172, 172);
+}
+.menu-sec {
+    display: flex;
+}
+.meals-main-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 30px;
+}
+#meal-img {
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+}
+.meals-div {
+    position: relative;
+    width: 280px;
+    /* height: 510px; */
+    /* border: 3px solid rgb(209, 194, 194); */
+    border-radius: 10px;
+}
+.price-div {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #691010;
+    position: absolute;
+    /* bottom: 0px; */
+    top: 180px;
+}
+#price {
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins";
+}
+#meal-big-text {
+    font-size: 25px;
+    font-family: "Poppins";
+    /* position: absolute; */
+    font-weight: 500;
+}
+#meal-small-text {
+    font-size: 18px;
+    font-family: "Poppins";
+    /* position: absolute; */
+    top: 290px;
+}
+footer {
+    background-color: #222222;
+}
+.footer-main-div {
+    display: flex;
+    padding: 50px 90px;
+}
+.contact-open-div {
+    width: 25%;
+    padding-right: 50px;
+}
+.sec-div {
+    width: 30%;
+}
+#f-big-text {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#f-small-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    padding-bottom: 10px;
+}
+.fa-phone {
+    font-size: 12px;
+    display: inline-block;
+    padding-right: 5px;
+}
+.fa-envelope {
+    font-size: 12px;
+    display: inline-block;
+    padding-right: 5px;
+}
+.fa-location-dot {
+    font-size: 12px;
+    display: inline-block;
+    padding-right: 5px;
+}
+#g-img-mini {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#g-img-mini:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.gallery-imgs-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    gap: 10px;
+}
+.contact-us-social {
+    width: 22%;
+}
+.contact-icons {
+    display: inline-block;
+    padding-right: 2px;
+    width: 20px;
+}
+.modal-main-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.modal-imgs > img {
+    position: absolute;
+    top: -65px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0;
+    z-index: 1; 
+}
+#previous {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(40%);
+}
+.previous-main {
+    height: 100%;
+}
+.previous-main:hover #previous{
+    filter: brightness(100%);
+}
+#next {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    left: 340px;
+    top: 110px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(40%);
+}
+.next-main {
+    height: 100%;
+}
+.next-main:hover #next{
+    filter: brightness(100%);
+}
+.modal-imgs {
+    position: relative;
+}
+.modal {
+    position: fixed;
+    top: 220px;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 0;
+    visibility: hidden;
+}
+.modal-back {
+  visibility: hidden;
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7);
+}
+footer {
+    position: relative;  
+}
+.fa-angle-right {
+    font-size: 42px;
+}
+.fa-angle-left {
+    font-size: 42px;
+}
+.fa-x {
+    font-size: 35px;
+    filter: brightness(50%);
+}
+.exit-modal {
+    position: absolute;
+    left: 350px;
+    top: -40px;
+    z-index: 2;
+}
+.exit-modal:hover .fa-x {
+    filter: brightness(100%);
+}
+.m-active {
+    opacity: 1 !important; 
+}
+#img-num {
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+.img-num-div {
+    font-family: "Poppins";
+    z-index: 2;
+    width: 110px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 260px;
+    left: 150px;
+}
+.show {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+.fade {
+    transition: opacity 0.7s ease-in;
+}
+  
+.fadeOut { opacity: 0; }
+.fadeIn { opacity: 1; }
+.search-bar-active {
+    display: "block";
+}
+.hop {
+    display: none;
+}
+
+
+
+@media  screen and (max-width: 1249px) and (min-width: 1100px) {
+    .n-bars {
+        padding: 18px;
+        font-size: 18px;
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        left: 45px;
+    }
+    .header-icon-social {
+        right: 80px;
+    }
+    .meals-main-div {
+        padding-left: 0px;
+        gap: 35px;
+    }
+    .meals-div {
+        width: 250px;
+    }
+    #meal-img {
+        width: 250px;
+        height: 220px;
+    }
+    .price-div {
+        width: 80px;
+        height: 40px;
+        top: 190px;
+    }
+    #price {
+        font-size: 25px;
+    }
+    #meal-big-text {
+        font-size: 22px;
+        padding-top: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 1099px) and (min-width: 1024px) {
+    #n-bars {
+        padding: 18px;
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        left: 45px;
+    }
+    .header-icon-social {
+        right: 80px;
+    }
+    .circle-img-div {
+        position: absolute;
+        left: 250px;
+        top: 60px;
+    }
+    .meals-main-div {
+        padding-left: 40px;
+        gap: 25px;
+    }
+    .meals-div {
+        width: 230px;
+    }
+    #meal-img {
+        width: 230px;
+        height: 200px;
+    }
+    .price-div {
+        width: 80px;
+        height: 40px;
+        top: 170px;
+    }
+    #price {
+        font-size: 25px;
+    }
+    #meal-big-text {
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    .search-bar-btn {
+        width: 180px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 900px) {
+    #n-bars {
+        display: none;
+        padding: 18px;
+    }
+    .nav-bar-main {
+        padding-top: 70px;
+    }
+    .two-stick {
+        display: flex;
+        top: 40px;
+        right: 50px;
+    }
+    .circle-img-div {
+        transform: scale(0.9);
+    }
+    #home:hover {
+        color: #d80b0b;
+    }
+    #menu:hover {
+        color: #d80b0b;
+    }
+    #reservation-slide:hover {
+        color: #d80b0b;
+    }
+    #gallery-slide:hover {
+        color: #d80b0b;
+    }
+    #about-slide:hover {
+        color: #d80b0b;
+    }
+    #contact-slide:hover {
+        color: #d80b0b;
+    }
+
+    #menu {
+        color: #d80b0b;
+        text-decoration: none;
+    }
+    #reservation-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #gallery-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #about-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #contact-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        top: 20px;
+        left: 45px;
+    }
+    .header-icon-social {
+        right: 120px;
+        top: 40px;
+    }
+    .circle-img-div {
+        position: absolute;
+        left: 250px;
+        top: 60px;
+    }
+    .meals-main-div {
+        padding-left: 70px;
+        gap: 75px;
+    }
+    .meals-div {
+        width: 250px;
+    }
+    #meal-img {
+        width: 250px;
+        height: 220px;
+    }
+    .price-div {
+        width: 80px;
+        height: 40px;
+        top: 190px;
+    }
+    #price {
+        font-size: 25px;
+    }
+    #meal-big-text {
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    .search-bar-btn {
+        width: 180px;
+    }
+    .footer-main-div {
+        gap: 60px;
+    }
+    .gallery-div {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 899px) and (min-width: 768px) {
+    #n-bars {
+        display: none;
+        padding: 18px;
+    }
+    .nav-bar-main {
+        padding-top: 70px;
+    }
+    .two-stick {
+        display: flex;
+        top: 40px;
+        right: 50px;
+    }
+    .circle-img-div {
+        transform: scale(0.8);
+    }
+    #home:hover {
+        color: #d80b0b;
+    }
+    #menu:hover {
+        color: #d80b0b;
+    }
+    #reservation-slide:hover {
+        color: #d80b0b;
+    }
+    #gallery-slide:hover {
+        color: #d80b0b;
+    }
+    #about-slide:hover {
+        color: #d80b0b;
+    }
+    #contact-slide:hover {
+        color: #d80b0b;
+    }
+
+    #menu {
+       color: #d80b0b;
+        text-decoration: none;
+    }
+    #reservation-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #gallery-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #about-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #contact-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        left: 45px;
+        top: 20px;
+    }
+    .header-icon-social {
+        right: 120px;
+        top: 40px;
+    }
+    .circle-img-div {
+        position: absolute;
+        left: 250px;
+        top: 60px;
+    }
+    .meals-main-div {
+        padding-left: 70px;
+        gap: 75px;
+    }
+    .meals-div {
+        width: 230px;
+    }
+    #meal-img {
+        width: 230px;
+        height: 200px;
+    }
+    .price-div {
+        width: 80px;
+        height: 40px;
+        top: 190px;
+    }
+    #price {
+        font-size: 25px;
+    }
+    #meal-big-text {
+        font-size: 22px;
+        padding-top: 27px;
+    }
+    .search-bar-btn {
+        width: 180px;
+    }
+    .gallery-div {
+        display: none;
+    }
+    .footer-main-div {
+        gap: 60px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px)  and (min-width: 700px) {
+    #n-bars {
+        display: none;
+        padding: 18px;
+    }
+    .nav-bar-main {
+        padding-top: 70px;
+    }
+    .two-stick {
+        display: flex;
+        top: 40px;
+        right: 80px;
+    }
+    #home:hover {
+        color: #d80b0b;
+    }
+    #menu:hover {
+        color: #d80b0b;
+    }
+    #reservation-slide:hover {
+        color: #d80b0b;
+    }
+    #gallery-slide:hover {
+        color: #d80b0b;
+    }
+    #about-slide:hover {
+        color: #d80b0b;
+    }
+    #contact-slide:hover {
+        color: #d80b0b;
+    }
+
+    #menu {
+        color: #d80b0b;
+        text-decoration: none;
+    }
+    #reservation-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #gallery-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #about-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #contact-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    .circle-img-div {
+        transform: scale(0.7);
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        left: 45px;
+        top: 20px;
+    }
+    .header-icon-social {
+        display: none;
+        right: 120px;
+        top: 40px;
+    }
+    .circle-img-div {
+        position: absolute;
+        left: 250px;
+        top: 56px;
+    }
+    .meals-main-div {
+        padding-left: 80px;
+        gap: 40px;
+    }
+    .meals-div {
+        width: 320px;
+    }
+    #meal-img {
+        width: 320px;
+        height: 290px;
+    }
+    .price-div {
+        width: 100px;
+        height: 60px;
+        top: 220px;
+    }
+    #price {
+        font-size: 32px;
+    }
+    #meal-big-text {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .search-bar-btn {
+        width: 200px;
+    }
+    .gallery-div {
+        display: none;
+    }
+    .footer-main-div {
+        gap: 70px;
+    }
+
+    .modal-imgs > img {
+        width: 350px;
+        height: 350px;
+        left: 80px;
+    }
+    #previous {
+        left: 80px;
+        top: 80px;
+    }
+    #next {
+        left: 370px;
+        top: 80px;
+    }
+    .img-num-div {
+        left: 200px;
+        top: 240px;
+    }
+    .exit-modal {
+        left: 370px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 699px)  and (min-width: 600px) {
+    #n-bars {
+        display: none;
+        padding: 18px;
+    }
+    .nav-bar-main {
+        padding-top: 70px;
+    }
+    .two-stick {
+        display: flex;
+        top: 40px;
+        right: 80px;
+    }
+    #home:hover {
+        color: #d80b0b;
+    }
+    #menu:hover {
+        color: #d80b0b;
+    }
+    #reservation-slide:hover {
+        color: #d80b0b;
+    }
+    #gallery-slide:hover {
+        color: #d80b0b;
+    }
+    #about-slide:hover {
+        color: #d80b0b;
+    }
+    #contact-slide:hover {
+        color: #d80b0b;
+    }
+
+    #menu {
+        color: #d80b0b;
+        text-decoration: none;
+    }
+    #reservation-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #gallery-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #about-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #contact-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    .circle-img-div {
+        transform: scale(0.7);
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        left: 45px;
+        top: 20px;
+    }
+    .header-icon-social {
+        display: none;
+        right: 120px;
+        top: 40px;
+    }
+    .circle-img-div {
+        position: absolute;
+        left: 120px;
+        top: 56px;
+    }
+    .meals-main-div {
+        padding-left: 10px;
+        gap: 40px;
+    }
+    .meals-div {
+        width: 270px;
+    }
+    #meal-img {
+        width: 270px;
+        height: 250px;
+    }
+    .price-div {
+        width: 100px;
+        height: 60px;
+        top: 220px;
+    }
+    #price {
+        font-size: 32px;
+    }
+    #meal-big-text {
+        font-size: 21px;
+        padding-top: 30px;
+    }
+    #meal-small-text {
+        font-size: 15px;
+        width: 280px;
+    }
+    .search-bar-btn {
+        width: 180px;
+        font-size: 14px;
+    }
+    .gallery-div {
+        display: none;
+    }
+    .footer-main-div {
+        gap: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #f-big-text {
+        width: 180px;
+    }
+    #f-small-text {
+        width: 180px;
+    }
+    .contact-us-social {
+        width: 40%;
+    }
+
+    .modal-imgs > img {
+        width: 350px;
+        height: 350px;
+        left: 80px;
+    }
+    #previous {
+        left: 80px;
+        top: 80px;
+    }
+    #next {
+        left: 370px;
+        top: 80px;
+    }
+    .img-num-div {
+        left: 200px;
+        top: 240px;
+    }
+    .exit-modal {
+        left: 370px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 599px)  and (min-width: 470px) {
+    #n-bars {
+        display: none;
+        padding: 18px;
+    }
+    .nav-bar-main {
+        padding-top: 70px;
+    }
+    .two-stick {
+        display: flex;
+        top: 40px;
+        right: 80px;
+    }
+    #g-text-p {
+        font-size: 60px;
+    }
+    #home:hover {
+        color: #d80b0b;
+    }
+    #menu:hover {
+        color: #d80b0b;
+    }
+    #reservation-slide:hover {
+        color: #d80b0b;
+    }
+    #gallery-slide:hover {
+        color: #d80b0b;
+    }
+    #about-slide:hover {
+        color: #d80b0b;
+    }
+    #contact-slide:hover {
+        color: #d80b0b;
+    }
+
+    #menu {
+        color: #d80b0b;
+        text-decoration: none;
+    }
+    #reservation-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #gallery-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #about-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #contact-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    .circle-img-div {
+        transform: scale(0.7);
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        left: 45px;
+        top: 20px;
+    }
+    .header-icon-social {
+        display: none;
+        right: 120px;
+        top: 40px;
+    }
+    .circle-img-div {
+        position: absolute;
+        left: 70px;
+        top: 66px;
+    }
+    .meals-main-div {
+        padding-left: 10px;
+        gap: 40px;
+    }
+    .meals-div {
+        width: 220px;
+    }
+    #meal-img {
+        width: 220px;
+        height: 200px;
+    }
+    .price-div {
+        width: 70px;
+        height: 50px;
+        top: 180px;
+    }
+    #price {
+        font-size: 25px;
+    }
+    #meal-big-text {
+        font-size: 19px;
+        padding-top: 30px;
+    }
+    #meal-small-text {
+        font-size: 13px;
+        width: 220px;
+    }
+    .search-bar-btn {
+        width: 160px;
+        font-size: 12px;
+    }
+    .gallery-div {
+        display: none;
+    }
+    .footer-main-div {
+        gap: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #f-big-text {
+        width: 180px;
+    }
+    #f-small-text {
+        width: 180px;
+    }
+    .contact-us-social {
+        width: 40%;
+    }
+
+    .modal-imgs > img {
+        width: 320px;
+        height: 320px;
+        left: 100px;
+    }
+    #previous {
+        left: 100px;
+        top: 70px;
+    }
+    #next {
+        left: 360px;
+        top: 70px;
+    }
+    .img-num-div {
+        left: 205px;
+        top: 220px;
+    }
+    .exit-modal {
+        left: 370px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 470px)  and (min-width: 300px){
+    #n-bars {
+        display: none;
+        padding: 18px;
+    }
+    .nav-bar-main {
+        padding-top: 70px;
+    }
+    .two-stick {
+        display: flex;
+        top: 40px;
+        right: 60px;
+    }
+    #g-text-p {
+        font-size: 55px;
+    }
+    #home:hover {
+        color: #d80b0b;
+    }
+    #menu:hover {
+        color: #d80b0b;
+    }
+    #reservation-slide:hover {
+        color: #d80b0b;
+    }
+    #gallery-slide:hover {
+        color: #d80b0b;
+    }
+    #about-slide:hover {
+        color: #d80b0b;
+    }
+    #contact-slide:hover {
+        color: #d80b0b;
+    }
+
+    #menu {
+        color: #d80b0b;
+        text-decoration: none;
+    }
+    .menu-sec {
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-bar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #reservation-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #gallery-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #about-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    #contact-slide {
+        color: #222222;
+        text-decoration: none;
+    }
+    .circle-img-div {
+        transform: scale(0.5);
+    }
+    #g-text-p {
+        font-size: 45px;
+        left: 90px;
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #rest-name-big {
+        font-size: 70px;
+    }
+    .res-icon {
+        left: 45px;
+        top: 20px;
+    }
+    .header-icon-social {
+        display: none;
+        right: 120px;
+        top: 40px;
+    }
+    .circle-img-div {
+        position: absolute;
+        left: 60px;
+        top: 96px;
+    }
+    #search-i {
+        width: 150px;
+    }
+    .meals-main-div {
+        padding-left: 10px;
+        gap: 40px;
+        justify-content: center;
+    }
+    .meals-div {
+        width: 180px;
+    }
+    #meal-img {
+        width: 180px;
+        height: 160px;
+    }
+    .price-div {
+        width: 50px;
+        height: 40px;
+        top: 140px;
+    }
+    #price {
+        font-size: 20px;
+    }
+    #meal-big-text {
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    #meal-small-text {
+        font-size: 12px;
+        width: 180px;
+    }
+    .search-bar-btn {
+        width: 140px;
+        font-size: 12px;
+    }
+    .gallery-div {
+        display: none;
+    }
+    .footer-main-div {
+        gap: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #f-big-text {
+        font-size: 16px;
+    }
+    #f-small-text {
+        font-size: 12px;
+    }
+    .footer-main-div {
+        gap: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #f-big-text {
+        width: 180px;
+    }
+    #f-small-text {
+        width: 180px;
+    }
+    .contact-us-social {
+        width: 40%;
+    }
+
+    .modal-imgs > img {
+        width: 270px;
+        height: 270px;
+        left: 120px;
+    }
+    #previous {
+        left: 120px;
+        top: 50px;
+    }
+    #next {
+        left: 330px;
+        top: 50px;
+    }
+    .img-num-div {
+        left: 205px;
+        top: 170px;
+    }
+    .exit-modal {
+        left: 350px;
+    }
+
+    .two-stick-new {
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
