@@ -1457,6 +1457,9 @@ footer {
     .footer-main-div {
         gap: 70px;
     }
+    .rest-email-text {
+        min-width: 200px;
+    }
 }  
 
 
@@ -1527,6 +1530,9 @@ footer {
     }
     .footer-main-div {
         gap: 60px;
+    }
+    .rest-email-text {
+        min-width: 200px;
     }
 }  
 
@@ -1605,6 +1611,9 @@ footer {
         gap: 60px;
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .rest-email-text {
+        min-width: 200px;
     }
 
     .modal-imgs > img {
@@ -1710,6 +1719,9 @@ footer {
         gap: 50px;
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .rest-email-text {
+        min-width: 200px;
     }
 
     .modal-imgs > img {
@@ -1832,6 +1844,10 @@ footer {
         font-size: 17px;
         width: 200px;
     }
+    .rest-email-text {
+        min-width: 260px;
+    }
+
 
     .modal-imgs > img {
         width: 270px;
@@ -1939,8 +1955,8 @@ footer {
     }
     .footer-main-div {
         gap: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 30px;
         flex-direction: column;
         align-items: center;
     }
@@ -1952,6 +1968,10 @@ footer {
         font-size: 15px;
         width: 180px;
     }
+    .rest-email-text {
+        min-width: 220px;
+    }
+
 
     .modal-imgs > img {
         width: 270px;

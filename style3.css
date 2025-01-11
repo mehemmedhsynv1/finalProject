@@ -509,7 +509,8 @@ footer {
 .modal-imgs > img {
     position: absolute;
     top: -200px;
-    left: -50px;
+    /* left: 0px; */
+    left: 40px;
     width: 600px;
     height: 500px;
     object-fit: cover;
@@ -521,7 +522,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
     position: absolute;
-    left: -10px; 
+    left: 60px; 
     top: 100px;
     z-index: 2;
     display: flex;
@@ -542,7 +543,7 @@ footer {
     border-radius: 50%;
     position: absolute;
     /* right: 275px; */
-    left: 450px;
+    left: 555px;
     top: 100px;
     z-index: 2;
     display: flex;
@@ -586,6 +587,8 @@ footer {
 .exit-modal {
     position: relative;
     top: -80px;
+    left: 440px;
+    margin-left: 120px;
     z-index: 2;
 }
 .exit-modal:hover .fa-x {
@@ -679,19 +682,19 @@ footer {
     .modal-imgs > img {
         width: 550px;
         height: 450px;
-        left: 10px;
+        left: 70px;
     }
     #previous {
         top: 70px;
-        left: 30px;
+        left: 100px;
     }
     #next {
         top: 70px;
-        left: 480px;
+        left: 530px;
     }
     .img-num-div {
         top: 270px;
-        left: 200px;
+        left: 140px;
     }
     .search-bar {
         flex-wrap: wrap;
@@ -772,19 +775,19 @@ footer {
     .modal-imgs > img {
         width: 500px;
         height: 400px;
-        left: 20px;
+        left: 75px;
     }
     #previous {
         top: 70px;
-        left: 50px;
+        left: 100px;
     }
     #next {
         top: 70px;
-        left: 440px;
+        left: 490px;
     }
     .img-num-div {
         top: 210px;
-        left: 200px;
+        left: 100px;
     }
     .search-bar {
         flex-wrap: wrap;
@@ -850,6 +853,10 @@ footer {
         color: #222222;
         text-decoration: none;
     }
+    .exit-modal {
+        margin-left: 100px;
+        left: 410px;
+    }
 }  
 
 
@@ -865,19 +872,23 @@ footer {
     .modal-imgs > img {
         width: 450px;
         height: 350px;
-        left: 50px;
+        left: 115px;
     }
     #previous {
-        top: 30px;
-        left: 70px;
+        top: 20px;
+        left: 140px;
     }
     #next {
-        top: 30px;
-        left: 420px;
+        top: 20px;
+        left: 480px;
     }
     .img-num-div {
         top: 180px;
-        left: 195px;
+        left: 140px;
+    }
+    .exit-modal {
+        top: -100px;
+        left: 385px;
     }
     #g-text-p {
         font-size: 55px;
@@ -982,25 +993,26 @@ footer {
     .modal-imgs > img {
         width: 350px;
         height: 300px;
-        left: 105px;
+        left: 165px;
     }
     #previous {
         top: -10px;
-        left: 100px;
+        left: 180px;
     }
     #next {
         top: -10px;
-        left: 370px;
+        left: 435px;
     }
     .img-num-div {
         top: 130px;
-        left: 195px;
+        left: 130px;
     }
     #g-text-p {
         font-size: 40px;
     }
     .exit-modal {
         top: -110px;
+        left: 340px;
     }
     .search-bar {
         flex-wrap: wrap;
@@ -1107,25 +1119,26 @@ footer {
     .modal-imgs > img {
         width: 270px;
         height: 250px;
-        left: 140px;
+        left: 205px;
     }
     #previous {
-        top: -20px;
-        left: 150px;
+        top: -30px;
+        left: 220px;
     }
     #next {
-        top: -20px;
-        left: 340px;
+        top: -30px;
+        left: 400px;
     }
     .img-num-div {
         top: 80px;
-        left: 195px;
+        left: 130px;
     }
     #g-text-p {
         font-size: 40px;
     }
     .exit-modal {
         top: -110px;
+        left: 3s00px;
     }
     #g-text-p {
         font-size: 28px;
